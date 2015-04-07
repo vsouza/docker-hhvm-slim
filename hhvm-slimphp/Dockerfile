@@ -44,17 +44,12 @@ RUN chmod 700 /etc/service/hhvm/run
 # set up nginx default site
 ADD nginx-default /etc/nginx/sites-available/default
 
-RUN mkdir /var/www
-ADD src.zip /var/www/src.zip
-RUN unzip /var/www/src.zip -d /var/www/.
-RUN rm /var/www/src.zip
+RUN mkdir /var/www/public
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
 
-# SETUP Tamboreen
-RUN cd /var/www && composer install
 ADD .hhconfig /var/www/public/.hhconfig
 
 RUN sudo /usr/share/hhvm/install_fastcgi.sh
