@@ -1,18 +1,23 @@
 # docker hhvm slim
 
-docker container with [HHVM](http://www.hhvm.com) and Slim PHP. :whale:
+A docker container with [HHVM](http://www.hhvm.com) and [Slim PHP Framework](http://www.slimframework.com). :whale:
 
-## Build
+## Usage
+
+after clone this project...
 
 ```
-git clone https://github.com/vsouza/docker-hhvm-slim
-
-cd docker-hhvm-slim/
-
 docker build -t hhvm-slim .
 ```
+
+then run:
+
+```
+docker run -t -p 80 hhvm-slim
+```
+
+For more information about Hip Hop virtual Machine project, please visit: [hhvm.com](http://www.hhvm.com).
 
 ## License
 
 [MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
-
