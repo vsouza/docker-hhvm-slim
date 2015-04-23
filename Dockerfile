@@ -36,7 +36,7 @@ ADD hhvm.sh /etc/service/hhvm/run
 RUN chmod 700 /etc/service/hhvm/run
 
 # set up nginx default site
-ADD nginx-default /etc/nginx/sites-available/default
+ADD default /etc/nginx/sites-available/default
 
 RUN mkdir /var/www/public
 
