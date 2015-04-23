@@ -1,3 +1,0 @@
-<?hh
-
-print("Hello, world!");

@@ -1,3 +1,18 @@
-# docker-hhvm-slim
+# docker hhvm slim
 
-Docker container with HHVM and Slim PHP
+docker container with [HHVM](http://www.hhvm.com) and Slim PHP. :whale:
+
+## Build
+
+```
+git clone https://github.com/vsouza/docker-hhvm-slim
+
+cd docker-hhvm-slim/
+
+docker build -t hhvm-slim .
+```
+
+## License
+
+[MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
+

@@ -1,0 +1,1 @@
+<?hh print("Hello world!");
