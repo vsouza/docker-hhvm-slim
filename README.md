@@ -1,3 +1,5 @@
+<img src="http://ypereirareis.github.io/assets/images/posts/docker.svg" />
+
 # docker hhvm slim
 
 A docker container with [HHVM](http://www.hhvm.com) and [Slim PHP Framework](http://www.slimframework.com). :whale:
