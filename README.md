@@ -21,6 +21,6 @@ docker run -t -p 80 hhvm-slim
 For more information about Hip Hop virtual Machine project, please visit: [hhvm.com](http://www.hhvm.com).
 
 ## License
+[MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
 
 <img src="contribute.png" />
-[MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
