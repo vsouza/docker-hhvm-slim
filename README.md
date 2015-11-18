@@ -22,4 +22,5 @@ For more information about Hip Hop virtual Machine project, please visit: [hhvm.
 
 ## License
 
+<img src="contribute.png" />
 [MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
